@@ -237,3 +237,24 @@ textarea {
     }
 
 }
+
+/* SMALLER SCREEN PUTS THE NAV MENU IN A COLUMN */
+@media screen and (min-width: 500px) {
+    nav {
+
+    }
+}
+
+@media (max-width: 500px) {
+    nav {
+        float: none;
+    }
+    nav li,
+    nav a {
+        width: 100%;
+    }
+    nav a {
+        text-align: center;
+    }
+}
+
